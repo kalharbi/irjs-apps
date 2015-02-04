@@ -13,5 +13,9 @@
     "apks"
   ],
   "author": "Khalid Alharbi",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/kalharbi/irjs-apps"
+  }
 }
