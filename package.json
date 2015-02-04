@@ -1,0 +1,17 @@
+{
+  "name": "irjs-apps",
+  "version": "0.0.0",
+  "description": "Searching Google Play Android Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "android",
+    "search",
+    "apps",
+    "apks"
+  ],
+  "author": "Khalid Alharbi",
+  "license": "MIT"
+}
