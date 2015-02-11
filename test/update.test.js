@@ -12,10 +12,11 @@ var host_name = 'localhost',
 
 describe('update', function() {
 
-	it('should update a field in MongoDB document(s)', function() {
+	it('should update a field in MongoDB document(s)', function(done) {
 		apps.update(host_name, port_number, db_name, collection_name,
-			package_name, field_to_update, update_value, function(result) {
+			package_name, field_to_update, update_value, function(error, result) {
 				should.exist(result)
+				done()
 			});
 	})
 })
