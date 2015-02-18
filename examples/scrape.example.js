@@ -1,5 +1,6 @@
-var apps = require('../lib')
-
-apps.scrape('com.evernote', function(app_info){
-	console.log(JSON.stringify(app_info))	
+var apps = require('../lib'),
+    package_to_scrape = process.argv.slice(2)[0] || 'com.evernote'
+apps.scrape(package_to_scrape, function(app_info, err){
+	if(app_info)
+		console.log(JSON.stringify(app_info))
 })
