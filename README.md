@@ -20,8 +20,8 @@ Store listing details webpage and stores the listing details information
 
     scrape <package_name>                Scrape the Google Play store webpage 
                                          for the given package name. and print
-					 the listing details information into 
-					 STDOUT
+					                      the listing details information into 
+					                      STDOUT.
     insert <package_name>                Insert an app's listing details by 
                                          the given package name.
     find <package_name>                  Find the app's listing details by the 
@@ -30,7 +30,7 @@ Store listing details webpage and stores the listing details information
                                          the given package name.
     update <package_name> <field_to_update> <value_to_update>  Update the given
                                          field in the app's listing details 
-					 collection.
+					                      collection.
 
 
   Options:
