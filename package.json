@@ -1,6 +1,6 @@
 {
   "name": "irjs-apps",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Searching Google Play Android Apps",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "should": "^5.0.0"
   },
   "dependencies": {
-    "cheerio": "^1.1.1",
+    "cheerio": "^0.18.0",
     "commander": "^2.6.0",
     "mongodb": "^1.4.30",
     "request": "^2.53.0"
